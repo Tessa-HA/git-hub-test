@@ -1,0 +1,16 @@
+# 本机环境与敏感配置：不要提交到 GitHub
+.env
+.env.*
+!.env.example
+
+# 常见私钥和证书文件
+*.pem
+*.key
+*.pfx
+*.p12
+
+# 编辑器与系统临时文件
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
